@@ -20,9 +20,7 @@ It eliminates manual financial data review and provides:
 This project integrates:
 
 -   **Streamlit** for UI
-    
 -   **Pandas** for data processing
-    
 -   **Google Gemini (Generative AI)** for analysis
     
 
@@ -67,13 +65,9 @@ User-Friendly Output
 ## 🛠️ Technologies Used
 
 -   Python
-    
 -   Streamlit
-    
 -   Pandas
-    
 -   Google Generative AI (Gemini 2.5 Flash)
-    
 -   python-dotenv
     
 
@@ -89,27 +83,23 @@ gemini\_financial\_decoder/
 ## 🔑 API Setup
 
 1.  Generate API Key from Google AI Studio
-    
 2.  Create a `.env` file
     
-
-GOOGLE\_API\_KEY=your\_api\_key\_here
+`GOOGLE\_API\_KEY=your\_api\_key\_here`
 
 ## 📦 Installation
 
 ### 1️⃣ Create Virtual Environment
 
-python \-m venv env
+`python \-m venv env`
 
 ### 2️⃣ Activate
 
-- Windows:
+Windows:
+`env\\Scripts\\activate`
 
-env\\Scripts\\activate
-
-- Mac/Linux:
-
-source env/bin/activate
+Mac/Linux:
+`source env/bin/activate`
 
 ### 3️⃣ Install Dependencies
 
