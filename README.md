@@ -73,12 +73,14 @@ User-Friendly Output
 
 ## 📂 Project Structure
 
+```
 gemini\_financial\_decoder/  
 │  
 ├── app.py  
 ├── requirements.txt  
 ├── .env  
 └── README.md
+```
 
 ## 🔑 API Setup
 
@@ -118,9 +120,7 @@ The application will open at:
 Users can upload:
 
 -   Balance Sheet (CSV / XLSX)
-    
 -   Profit & Loss Statement (CSV / XLSX)
-    
 -   Cash Flow Statement (CSV / XLSX)
     
 
@@ -166,24 +166,17 @@ Users can upload:
 The application automatically generates:
 
 -   Line charts for numeric columns
-    
 -   Structured financial tables
-    
 -   Trend comparisons across years
     
 
 ## 🧠 How It Works
 
 1.  Files are uploaded via Streamlit
-    
 2.  Pandas converts data into structured format
-    
 3.  Data is converted into dictionary format
-    
 4.  Prompt templates are generated dynamically
-    
 5.  Gemini 2.5 Flash analyzes the structured financial data
-    
 6.  AI summary is displayed alongside charts
     
 
